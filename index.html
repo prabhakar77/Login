@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <form onsubmit="return validate()" method="GET">
+                <h3>Login Here</h3>
+                <div class="inputbox">
+                    <input type="text" placeholder="username" id="uname">
+                    <label for="uname" id="alert">Invalid Input</label>
+                </div>
+                <div class="inputbox">
+                    <input type="password" placeholder="Password" id="pwd">
+                    <label for="pwd" id="password">Invalid Password</label>
+                </div>
+                    <button type="submit" class="button">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var validate = function(){
+            var username = document.getElementById('uname');
+            var password = document.getElementById('pwd'); 
+
+            if(username.value.trim()===""){
+                document.getElementById('alert').style.visibility="visible";
+                username.style.borderbottom="3px solid red";
+                return false;
+            } else if(password.value.trim()==="") {
+                document.getElementById('password').style.visibility="visible";
+                password.style.border="2px solid red"
+                return false;
+            } else if (password.value.trim().length<5){
+                document.getElementById('password').style.visibility="visible";
+                password.style.border="2px solid red";
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
