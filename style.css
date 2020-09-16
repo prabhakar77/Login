@@ -84,10 +84,9 @@ input {
     border-bottom: 2px solid #eee;
     outline: none;
     font-size: 25px;
-    color: red;
+    color: #f00;
     padding: 5px 0;
     margin-bottom: 25px;
-    font-family: consolas;
 }
 .button {
     position: relative;
