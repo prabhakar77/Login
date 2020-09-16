@@ -123,11 +123,11 @@ label {
     display: flex;
     justify-content: center;
     visibility: hidden;
-    color: red;
+    color: #f00;
 }
 #password {
     position: absolute;
     display: inline;
     visibility: hidden;
-    color: red;
+    color: #f00;
 }
