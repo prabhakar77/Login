@@ -99,7 +99,7 @@ input {
 .button:hover {
     color: #fff;
     background: rgba(0, 241, 129, 0.7);
-    border: 1px solid rgb(0, 241, 129);
+    border: 1px solid #ff0;
 }
 label {
     position: absolute;
