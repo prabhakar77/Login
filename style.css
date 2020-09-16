@@ -79,12 +79,12 @@ h3 {
 }
 input {
     width: 300px;
-    background: #000;
+    background: transparent;
     border: none;
     border-bottom: 2px solid #eee;
     outline: none;
     font-size: 25px;
-    color: #222;
+    color: red;
     padding: 5px 0;
     margin-bottom: 25px;
     font-family: consolas;
