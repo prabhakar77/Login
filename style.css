@@ -79,7 +79,7 @@ h3 {
 }
 input {
     width: 300px;
-    background: transparent;
+    background: #000;
     border: none;
     border-bottom: 2px solid #eee;
     outline: none;
