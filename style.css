@@ -97,7 +97,7 @@ input {
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004)
 }
 .button:hover {
-    color: #000;
+    color: #fff;
     background: rgba(0, 241, 129, 0.7);
     border-top: 1px solid rgb(0, 241, 129);
     border-bottom: 1px solid rgb(253, 5, 5);
