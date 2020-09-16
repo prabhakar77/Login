@@ -88,6 +88,9 @@ input {
     padding: 5px 0;
     margin-bottom: 25px;
 }
+::placeholder {
+    color: #f00;
+}
 .button {
     position: relative;
     width: 160px;
