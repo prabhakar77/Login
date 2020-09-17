@@ -31,15 +31,15 @@
 
             if(username.value.trim()===""){
                 document.getElementById('alert').style.visibility="visible";
-                username.style.border="3px solid #f00";
+                username.style.borderBottom="3px solid #f00";
                 return false;
             } else if(password.value.trim()==="") {
                 document.getElementById('password').style.visibility="visible";
-                password.style.border="2px solid #f00"
+                password.style.borderBottom="2px solid #f00"
                 return false;
             } else if (password.value.trim().length<5){
                 document.getElementById('password').style.visibility="visible";
-                password.style.border="2px solid #f00";
+                password.style.borderBotom="2px solid #f00";
                 return false;
             }
         }
